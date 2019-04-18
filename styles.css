@@ -7,7 +7,6 @@ body {
     margin: 0;
     font-family: arial,sans-serif;
     min-height: 100vh;
-    position: relative;
 }
 
 a {
@@ -18,7 +17,6 @@ a {
 
 a:hover {
     text-decoration: underline;
-    cursor: pointer;
 }
 
 a,
@@ -49,7 +47,7 @@ input:focus {
 /* Header */
 .main-header {
     display: flex;
-    justify-content: flex-end;    
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -81,24 +79,6 @@ input:focus {
     border-radius: 3px;
 }
 
-.btn-grey {
-    background-color: #eee;
-    border: none;
-    padding: 10px 15px;
-    margin-bottom: 2rem;
-    border-radius: 5px;
-    transition: box-shadow 0.1s;
-}
-
-.btn-grey:hover {
-    box-shadow: inset 0 0 1px 1px #aaa;
-    text-decoration: none;
-}
-
-.btn-grey:first-of-type {
-    margin-right: 10px;
-}
-
 main {
     margin-top: 160px;
 }
@@ -128,6 +108,25 @@ main {
 
 .searchbox i {
     color: royalblue;
+}
+
+.btn-grey {
+    background-color: #eee;
+    border: none;
+    padding: 10px 15px;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    transition: box-shadow 0.1s;
+}
+
+.btn-grey:hover {
+    box-shadow: inset 0 0 1px 1px #aaa;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-grey:first-of-type {
+    margin-right: 10px;
 }
 
 .alt-languages {
